@@ -2,6 +2,8 @@
 
 A two-panel web app for generating and editing small dungeons as force-directed graphs, based on the [Bite-Sized Dungeons](https://traversefantasy.blogspot.com/2022/11/bite-sized-dungeons.html) method.
 
+**Live:** [nmbr13.github.io/osr-dungeon-generator](https://nmbr13.github.io/osr-dungeon-generator)
+
 ## Features
 
 - **Left panel**: Room list and editor. Select a room to edit its name, markdown content, and entrance flag. Add new connections between rooms and set connection type (doorway, corridor, stuck door). Use “Explode into 6-room dungeon” to replace a room with a full 6-room sub-dungeon.
@@ -34,4 +36,4 @@ Then open the URL shown (e.g. http://localhost:5173).
 npm run build
 ```
 
-Output is in `dist/`.
+Output is in `dist/`. The app is deployed to GitHub Pages on every push to `main`.
